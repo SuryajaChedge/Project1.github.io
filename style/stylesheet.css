@@ -1,0 +1,51 @@
+.container-fluid {
+    width: 100%;
+}
+
+.active {
+    background-image: url('../assets/dealbackgroundimg.jpg');
+    color: white;
+    font-weight: 900;
+    text-align: center;
+}
+
+#page {
+    background-image: url('../assets/greybackground.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 50px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-footer {
+    background-color: white;
+    margin: 0%;
+    border: none;
+}
+
+.btn {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.white-color {
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
